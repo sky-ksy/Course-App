@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chaxun"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CourseRegedit"
+            android:label="@string/title_activity_course_regedit" >
+        </activity>
+        <activity
+            android:name=".ScoreRegedit"
+            android:label="@string/title_activity_course_score" >
+        </activity>
+        <activity
+            android:name=".CourseQuery"
+            android:label="@string/title_activity_course_query" >
+        </activity>
+        <activity
+            android:name=".BaseQuery"
+            android:label="@string/title_activity_base_query" >
+        </activity>
+        <activity
+            android:name=".BaseRegedit"
+            android:label="@string/title_activity_base_regedit" >
+        </activity>
+        <activity
+            android:name=".ScoreQuery"
+            android:label="@string/title_activity_score_query" >
+        </activity>
+        <activity
+            android:name=".BaseUpdate"
+            android:label="@string/title_activity_base_update" >
+        </activity>
+        <activity
+            android:name=".CourseUpdate"
+            android:label="@string/title_activity_course_update" >
+        </activity>
+        <activity
+            android:name=".ScoreUpdate"
+            android:label="@string/title_activity_score_update" >
+        </activity>
+        <activity
+            android:name=".ShowListb"
+            android:label="@string/title_activity_show_listb" >
+        </activity>
+        <activity
+            android:name=".ShowListc"
+            android:label="@string/title_activity_show_listc" >
+        </activity>
+        <activity
+            android:name=".ShowLists"
+            android:label="@string/title_activity_show_lists" >
+        </activity>
+        <activity
+            android:name=".BaseDelete"
+            android:label="@string/title_activity_base_delete" >
+        </activity>
+        <activity
+            android:name=".CourseDelete"
+            android:label="@string/title_activity_course_delete" >
+        </activity>
+        <activity
+            android:name=".ScoreDelete"
+            android:label="@string/title_activity_score_delete" >
+        </activity>
+        <activity
+            android:name=".Delete"
+            android:label="@string/title_activity_delete" >
+        </activity>
+    </application>
+
+</manifest>

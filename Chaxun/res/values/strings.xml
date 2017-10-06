@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chaxun</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base_regedit">BaseRegedit</string>
+    <string name="title_activity_course_regedit">CourseRegedit</string>
+    <string name="title_activity_course_score">CourseScore</string>
+    <string name="title_activity_query">QueryActivity</string>
+    <string name="title_activity_course_query">CourseQuery</string>
+    <string name="title_activity_base_query">BaseQuery</string>
+    <string name="title_activity_score_query">ScoreQuery</string>
+    <string name="title_activity_base_update">BaseUpdate</string>
+    <string name="title_activity_course_update">CourseUpdate</string>
+    <string name="title_activity_score_update">ScoreUpdate</string>
+    <string name="title_activity_show_listb">ShowListb</string>
+    <string name="title_activity_show_listc">ShowListc</string>
+    <string name="title_activity_show_lists">ShowLists</string>
+    <string name="title_activity_base_delete">BaseDelete</string>
+    <string name="title_activity_course_delete">CourseDelete</string>
+    <string name="title_activity_score_delete">ScoreDelete</string>
+    <string name="title_activity_delete">Delete</string>
+
+</resources>

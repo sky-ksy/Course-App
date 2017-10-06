@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="20dp">
+        <TextView
+        android:id="@+id/querycContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查找内容："
+        android:textSize="20sp" />
+        <TextView
+        android:id="@+id/querycCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:text="查找条件："
+        android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="15dp">
+
+        <CheckBox
+            android:id="@+id/checkcnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课程号"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/qcnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="课程号："
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/qcnumin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="15dp">
+
+        <CheckBox
+            android:id="@+id/checkcname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课程名"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/qcname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="课程名："
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/qcnamein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <CheckBox
+            android:id="@+id/checkcredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学分"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/qcredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="学分："
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/qcreditin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number|numberDecimal" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="100dp">
+        <Button
+            android:id="@+id/qcourseConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/qcourseCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="返回" />
+    </LinearLayout>
+   
+    
+</LinearLayout>
